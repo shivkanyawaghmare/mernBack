@@ -28,8 +28,7 @@ app.use(cors());
 
 // Routes
 app.use('/api/', userRoutes);
-app.use('/api/users/',userRoute)
-document.write('Hello');
+app.use('/api/users/',userRoute);
 
 
 // MongoDB connection
